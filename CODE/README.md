@@ -68,8 +68,11 @@ python cleanLemmatizeTokenizeData.py
   - Number of terms from literature review
   - Number of terms added manually
   - Total number of terms after synonym generation
+  - `countBiasTermsByIdentity.py`: Counts and prints the following using the flat list bias lexicon:
+  - Number of bias terms associated with each of the 48 intersectional identities, inclusive of synonym expansion terms
 - `biasLexiconFindSynonymsSubList.py `
   Generates synonyms for lexicon terms extracted from literature on South Asian stereotypes, and stored into sub-categories of `"activities"` and `"descriptions"`. This version was not implemented in our study.
+
 
 This ensures transparency in the lexicon development process.
 
