@@ -73,7 +73,7 @@ This directory contains TF-IDF values computed during bias analysis, including b
 - Contains **Overall TF-IDF values for all terms**, not just those from the bias lexicon.
 - Files are grouped by language and application.
 - Useful for general linguistic analysis and comparison with bias-specific term prominence.
-- **Includes `Bias_Scores_and_Top_Terms_by_Language.pdf`** which provides a detailed writeup of top biased terms, bias scores, frequent overall terms, and compares bias scores by identity, methods, applications, and languages.
+- **Includes `Bias_Scores_and_Top_Terms_by_Language.pdf`** which provides a detailed writeup by language of top biased terms, bias scores, frequent overall terms, and compares bias scores by identity, methods, applications, and languages.
 
 
 ---

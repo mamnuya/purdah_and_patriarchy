@@ -15,6 +15,7 @@ FILL THIS IN
 
 - 📂 [Code Folder](./CODE): Contains scripts for model experiments, generation, bias scoring (including Bias TF-IDF), prompt formatting, and evaluation metrics.
 - 📂 [Data Folder](./data): Includes curated identity templates, translated prompts, generated outputs, the cultural bias lexicon, and calculated metrics.
+  - Includes [Bias_Scores_and_Top_Terms_by_Language.pdf](./data/lexicon_analysis/tfidf/tfidf_values/allTerms/Bias_Scores_and_Top_Terms_by_Language.pdf) which provides a detailed writeup by language of top biased terms, bias scores, frequent overall terms, and compares bias scores by identity, methods, applications, and languages.
 
 
 ## Citation
