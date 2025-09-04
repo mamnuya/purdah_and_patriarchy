@@ -1,0 +1,164 @@
+[
+    {
+        "language_family": "Indo-Aryan",
+        "application": "Story",
+        "method_1": "original",
+        "method_2": "simple",
+        "n_samples": 287,
+        "wilcoxon_stat": 19054.0,
+        "p_value": 0.2525861039455233
+    },
+    {
+        "language_family": "Indo-Aryan",
+        "application": "Story",
+        "method_1": "original",
+        "method_2": "complex",
+        "n_samples": 287,
+        "wilcoxon_stat": 19020.0,
+        "p_value": 0.24270536268028609
+    },
+    {
+        "language_family": "Indo-Aryan",
+        "application": "Story",
+        "method_1": "simple",
+        "method_2": "complex",
+        "n_samples": 287,
+        "wilcoxon_stat": 17725.0,
+        "p_value": 0.03675292322019019
+    },
+    {
+        "language_family": "Indo-Aryan",
+        "application": "Hobbies and Values",
+        "method_1": "original",
+        "method_2": "simple",
+        "n_samples": 277,
+        "wilcoxon_stat": 16466.0,
+        "p_value": 0.8417770367980728
+    },
+    {
+        "language_family": "Indo-Aryan",
+        "application": "Hobbies and Values",
+        "method_1": "original",
+        "method_2": "complex",
+        "n_samples": 277,
+        "wilcoxon_stat": 18229.0,
+        "p_value": 0.9605654107144467
+    },
+    {
+        "language_family": "Indo-Aryan",
+        "application": "Hobbies and Values",
+        "method_1": "simple",
+        "method_2": "complex",
+        "n_samples": 277,
+        "wilcoxon_stat": 17801.0,
+        "p_value": 0.556815031377956
+    },
+    {
+        "language_family": "Indo-Aryan",
+        "application": "To-do List",
+        "method_1": "original",
+        "method_2": "simple",
+        "n_samples": 284,
+        "wilcoxon_stat": 16878.0,
+        "p_value": 0.7765196584386077
+    },
+    {
+        "language_family": "Indo-Aryan",
+        "application": "To-do List",
+        "method_1": "original",
+        "method_2": "complex",
+        "n_samples": 284,
+        "wilcoxon_stat": 19313.0,
+        "p_value": 0.7151904880348667
+    },
+    {
+        "language_family": "Indo-Aryan",
+        "application": "To-do List",
+        "method_1": "simple",
+        "method_2": "complex",
+        "n_samples": 284,
+        "wilcoxon_stat": 18995.0,
+        "p_value": 0.370713786730008
+    },
+    {
+        "language_family": "Dravidian",
+        "application": "Story",
+        "method_1": "original",
+        "method_2": "simple",
+        "n_samples": 192,
+        "wilcoxon_stat": 8349.0,
+        "p_value": 0.2353177924892188
+    },
+    {
+        "language_family": "Dravidian",
+        "application": "Story",
+        "method_1": "original",
+        "method_2": "complex",
+        "n_samples": 192,
+        "wilcoxon_stat": 8934.0,
+        "p_value": 0.6686395267757704
+    },
+    {
+        "language_family": "Dravidian",
+        "application": "Story",
+        "method_1": "simple",
+        "method_2": "complex",
+        "n_samples": 192,
+        "wilcoxon_stat": 8289.0,
+        "p_value": 0.20601744178051662
+    },
+    {
+        "language_family": "Dravidian",
+        "application": "Hobbies and Values",
+        "method_1": "original",
+        "method_2": "simple",
+        "n_samples": 179,
+        "wilcoxon_stat": 6426.0,
+        "p_value": 0.04420800626155982
+    },
+    {
+        "language_family": "Dravidian",
+        "application": "Hobbies and Values",
+        "method_1": "original",
+        "method_2": "complex",
+        "n_samples": 179,
+        "wilcoxon_stat": 5804.0,
+        "p_value": 0.0023980839629987624
+    },
+    {
+        "language_family": "Dravidian",
+        "application": "Hobbies and Values",
+        "method_1": "simple",
+        "method_2": "complex",
+        "n_samples": 179,
+        "wilcoxon_stat": 7551.0,
+        "p_value": 0.5471159683385869
+    },
+    {
+        "language_family": "Dravidian",
+        "application": "To-do List",
+        "method_1": "original",
+        "method_2": "simple",
+        "n_samples": 192,
+        "wilcoxon_stat": 6625.0,
+        "p_value": 0.0017842389000930004
+    },
+    {
+        "language_family": "Dravidian",
+        "application": "To-do List",
+        "method_1": "original",
+        "method_2": "complex",
+        "n_samples": 192,
+        "wilcoxon_stat": 7026.0,
+        "p_value": 0.005110222789577961
+    },
+    {
+        "language_family": "Dravidian",
+        "application": "To-do List",
+        "method_1": "simple",
+        "method_2": "complex",
+        "n_samples": 192,
+        "wilcoxon_stat": 7476.0,
+        "p_value": 0.026982796332083534
+    }
+]

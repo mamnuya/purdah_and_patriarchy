@@ -91,7 +91,7 @@ python lexicon_synonym_words_counts.py
 ### `analysis/tfidf/`
 - `biastermsTFIDF.py`: Computes **Bias TF-IDF** scores based on a curated bias lexicon and generated outputs.
 - `overalltermsTFIDF.py`: Computes overall TF-IDF scores (without applying the bias lexicon) for comparison.
-- `identity_application_biastermScore.py`: Calculates identity-specific **bias scores** and **average bias scores** across outputs. Stores relevant results, and prints/shows/saves tables/diagrams.
+- `identity_application_biastermScore.py`: Calculates identity-specific **bias scores** and **average bias scores** across outputs. Stores relevant results, and prints/shows/saves tables/diagrams. Computes and presents statistical tests.
 - `identity_application_overallTermScore.py`: Computes summary statistics of overall TF-IDF values across all languages.
 
 #### Usage

@@ -1283,3 +1283,64 @@ file_path = "../../../data/lexicon_analysis/tfidf/tfidf_values/biasTerms/BiasSco
 generate_bias_comparison_plots(file_path)
 
 
+
+from scipy.stats import wilcoxon
+from collections import defaultdict
+def run_stat_tests_by_family(language_bias_scores, 
+                             indo_aryan_languages, 
+                             dravidian_languages, 
+                             applications=["Story", "Hobbies and Values", "To-do List"]):
+    """
+    Runs Wilcoxon signed-rank tests comparing Original vs. Simple, Original vs. Complex,
+    and Simple vs. Complex Bias TF-IDF scores for each application within each language family.
+    """
+    comparisons = [("original", "simple"), ("original", "complex"), ("simple", "complex")]
+    results = []
+
+    # Organize bias scores by language family
+    language_families = {
+        "Indo-Aryan": indo_aryan_languages,
+        "Dravidian": dravidian_languages
+    }
+
+    for family, langs in language_families.items():
+        for app in applications:
+            # Collect all bias scores for this family × application
+            all_scores = {method: [] for method in ["original", "simple", "complex"]}
+
+            for lang in langs:
+                if lang not in language_bias_scores:
+                    continue
+                for identity, apps in language_bias_scores[lang].items():
+                    if app in apps:
+                        for method in ["original", "simple", "complex"]:
+                            all_scores[method].append(apps[app][method])
+
+            # Run pairwise Wilcoxon tests for this family × application
+            for m1, m2 in comparisons:
+                if len(all_scores[m1]) == len(all_scores[m2]) and len(all_scores[m1]) > 0:
+                    try:
+                        stat, p = wilcoxon(all_scores[m1], all_scores[m2])
+                    except ValueError:
+                        # Happens if all differences are zero
+                        stat, p = None, 1.0
+
+                    results.append({
+                        "language_family": family,
+                        "application": app,
+                        "method_1": m1,
+                        "method_2": m2,
+                        "n_samples": len(all_scores[m1]),
+                        "wilcoxon_stat": stat,
+                        "p_value": p
+                    })
+
+    return results
+
+# Run the tests
+stat_results = run_stat_tests_by_family(language_bias_scores, indo_aryan_languages, dravidian_languages)
+
+import pandas as pd
+df_stats = pd.DataFrame(stat_results)
+print(df_stats)
+save_json(stat_results, "../../../data/lexicon_analysis/tfidf/tfidf_values/biasTerms/BiasScore/statistical_significance_testing_by_method.json")
