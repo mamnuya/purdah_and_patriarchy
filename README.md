@@ -20,15 +20,13 @@ FILL THIS IN
 
 ## Citation
 
-FILL THIS IN
-
 Please cite this work if you find it useful in your own research:
 
 ```bibtex
-@inproceedings{your_citation_2025,
-  title={NONE},
-  author={XYZ},
-  year={2025},
-  booktitle={NONE},
-  note={NONE}
+@inproceedings{mrinki2026,
+  title={Purdah and Patriarchy: Evaluating and Mitigating South Asian Biases in Open-Ended Multilingual LLM Generations},
+  author={Rinki, Mamnuya and Raj, Chahat and Mukherjee, Anjishnu and Zhu, Ziwei},
+  booktitle={Proceedings of the 6th Workshop on Trustworthy Natural Language Processing (TrustNLP 2026)},
+  publisher = "Association for Computational Linguistics",
+  year={2026}
 }
