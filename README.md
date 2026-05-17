@@ -9,7 +9,7 @@ Biases reflecting these cultural norms are often embedded in the training data o
 This project contains the code and data for model generations, evaluations, bias lexicons, and more.
 
 ## Paper
-Research paper has been accepted in the Proceedings of the 6th Workshop on Trustworthy Natural Language Processing (TrustNLP 2026), published by Association for Computational Linguistics (ACL)
+Research paper has been accepted in the Proceedings of the 6th Workshop on Trustworthy Natural Language Processing (TrustNLP 2026), published by Association for Computational Linguistics (ACL).
 
 ## Repository Structure
 
