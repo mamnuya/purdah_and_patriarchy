@@ -11,6 +11,8 @@ This project contains the code and data for model generations, evaluations, bias
 ## Paper
 📖 [View Paper from TrustNLP @ ACL 2026](https://aclanthology.org/2026.trustnlp-main.18/)
 
+🖼️ [View Poster from TrustNLP @ ACL 2026](./TRUSTNLP%20Poster%20Purdah%20and%20patriarchy.pdf)
+
 Research paper has been accepted in the Proceedings of the 6th Workshop on Trustworthy Natural Language Processing (TrustNLP 2026), published by Association for Computational Linguistics (ACL).
 
 ## Repository Structure
